@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<script src="javascript/script.js"></script>
+<body  style="margin: 0px;">
+    <div style = "text-align: center; margin-top: 5%;">
+        <input type = "text" placeholder="textbox" id="colorInput">
+        <button id="colorButton" onclick="changeColor()">draw</button>
+        <p id="test"></p>
+    </div>
+    <div style="display: flex;">
+    <div style= "float:left; width: 20%">
+        <img src="images/Brutus_Buckeye_in_2017.jpeg" width="200px" height="auto" id="brutus" onclick="disableImg('brutus')">
+    </div>
+    <div style="float:left; width: 60%; ">
+        <div id="colorSquare" style = "background-color: green; height: 200px; width: 200px; margin-left: auto; margin-right: auto;"></div>
+    </div>
+    <div style= "float:left; width: 20%; text-align: right;">
+        <img src="images/ohio-state-university-logo.jpeg" width="200px" height="auto" id="osulogo" onclick="disableImg('osulogo')">
+    </div>
+    </div>
+    </body>
+
+</html>
